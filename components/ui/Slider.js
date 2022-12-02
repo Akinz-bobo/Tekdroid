@@ -5,8 +5,6 @@ import { SliderData } from "./SliderData";
 function Slider({ slide }) {
   const [current, setCurrent] = useState(0);
   const length = slide.length - 1;
-  // console.log(length);
-
   if (!Array.isArray(slide) || slide.length <= 0) {
     return null;
   }
@@ -14,16 +12,12 @@ function Slider({ slide }) {
   const prevSlide = () => {
     setCurrent((prev) => {
       prev = length;
-      console.log(prev);
       length--;
 
       if (prev === 0) {
-        // prev === length;
-        // console.log(prev);
-        return; //console.log(prev);
       } else {
         prev--;
-        return; //console.log(prev);
+        return;
       }
     });
   };

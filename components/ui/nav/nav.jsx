@@ -1,11 +1,13 @@
+import React, { useState } from "react";
 import Link from "next/link";
-import React from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import Logo from "../Logo";
+import Mobile_Nav from "./mobile.nav";
 
 function Nav() {
+  const [togglemenu, setTogglemenu] = useState(false);
   return (
-    <nav className=" bg-[#1C1E53] text-white">
+    <nav className=" bg-[#1C1E53] text-white relative">
       <div className=" flex justify-between items-center  mx-auto max-w-[80%]">
         <Logo />
         {/* desktopMenu */}
@@ -22,8 +24,21 @@ function Nav() {
             </button>
           </Link>
         </div>
-        <BiMenuAltRight className="text-3xl md:text-4xl laptop:hidden" />
+        {!togglemenu && (
+          <BiMenuAltRight
+            className="text-3xl md:text-4xl laptop:hidden"
+            onClick={() => setTogglemenu(true)}
+          /> // toggle the menu open and hide the button
+        )}
       </div>
+      {togglemenu && (
+        <div
+          className="absolute w-full top-0 h-screen z-40"
+          onClick={() => setTogglemenu(false)}
+        >
+          <Mobile_Nav onClick={setTogglemenu} />
+        </div>
+      )}
     </nav>
   );
 }

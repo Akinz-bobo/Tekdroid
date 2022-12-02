@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Banner from "../components/homes/Banner";
 import Button from "../components/ui/Button";
 import Footer from "../components/ui/Footer";
