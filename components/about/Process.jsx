@@ -10,7 +10,7 @@ function Process() {
       <div className="grid grid-cols-1 md:grid-cols-2 laptop:grid-cols-4 items-center gap-6">
         <div>
           <div>
-            <Image src={line} alr="" />
+            <Image src={line} alt="" />
           </div>
           <h3 className="text-2xl font-[500] my-3 ">Planning</h3>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>

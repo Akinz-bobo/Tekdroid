@@ -1,6 +1,6 @@
-import Link from "next/link";
-import React, { useState } from "react";
-import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import Link from "next/link"
+import React, { useState } from "react"
+import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
 const accordionData = [
   {
     id: 1,
@@ -32,18 +32,18 @@ const accordionData = [
     answer:
       "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
   },
-];
+]
 function Accordion() {
-  const [selected, setSelected] = useState(null);
-  const toggleHandler = (ind) => {
+  const [selected, setSelected] = useState(null)
+  const toggleHandler = ind => {
     if (selected === ind) {
-      return setSelected(null);
+      return setSelected(null)
     }
-    setSelected(ind);
-  };
+    setSelected(ind)
+  }
   return (
-    <div className="my-[4rem]">
-      <div className="grid grid-cols-1 md:grid-cols-3 items-center ">
+    <div className="my-[4rem] ">
+      <div className="grid grid-cols-1 md:grid-cols-3 items-center max-w-[90%] mx-auto ">
         <div className="max-w-[70%] mx-auto">
           <h2 className="text-3xl font-[600]">Frequently Ask Questions</h2>
           <Link href={"/contact"}>
@@ -86,13 +86,13 @@ function Accordion() {
                     </div>
                   </div>
                 </li>
-              );
+              )
             })}
           </ul>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Accordion;
+export default Accordion

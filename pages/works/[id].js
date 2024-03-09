@@ -31,7 +31,7 @@ function WorkDetail() {
             className={` bg-gradient-to-r ${"from-[#F4EDE1] to-[#98B1C6]"} p-6`}
           >
             <div className="min-w-fit">
-              <Image src={work1} layout="responsive" alr="" />
+              <Image src={work1} layout="responsive" alt="" />
             </div>
           </div>
         </div>

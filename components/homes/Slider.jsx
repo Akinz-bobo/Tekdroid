@@ -32,8 +32,8 @@ function Slider() {
       </div>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we&apos;ve worked with so far. They understand our
-          product and are able to add new features with a great focus."
+          The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus.
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -53,8 +53,8 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we&apos;ve worked with so far. They understand our
-          product and are able to add new features with a great focus."
+          The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus.
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -74,8 +74,8 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we&apos;ve worked with so far. They understand our
-          product and are able to add new features with a great focus."
+          The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus.
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -95,8 +95,8 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we&apos;ve worked with so far. They understand our
-          product and are able to add new features with a great focus."
+          The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus.
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
