@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import Footer from "../../components/ui/Footer";
-import MainNav from "../../components/ui/nav/MainNav";
-import { blog0, blog01 } from "../../assets/blogImg";
+import Image from "next/image"
+import React from "react"
+import Footer from "../../components/ui/Footer"
+import MainNav from "../../components/ui/nav/MainNav"
+import { blog0, blog01 } from "../../assets/blogImg"
 
 function Blog() {
   return (
@@ -20,7 +20,7 @@ function Blog() {
             </p>
           </div>
           <div className="my-[2.5rem]">
-            <Image src={blog0} />
+            <Image src={blog0} alt="" />
           </div>
           <div className="md:max-w-[90%] laptop:max-w-[50%] mx-auto">
             <div>
@@ -44,7 +44,7 @@ function Blog() {
               </p>
             </div>
             <div className="my-6 laptop:my-8">
-              <Image src={blog01} />
+              <Image src={blog01} alt="" />
             </div>
             <div>
               <h3 className="font-[600] text-xl md:text-2xl laptop:text-3xl mb-3">
@@ -71,7 +71,7 @@ function Blog() {
       </section>
       <Footer />
     </main>
-  );
+  )
 }
 
-export default Blog;
+export default Blog

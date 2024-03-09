@@ -1,18 +1,12 @@
-import React from "react";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
-import {
-  about5,
-  about6,
-  about7,
-  about8,
-  test1,
-} from "../../assets/about/about";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import React from "react"
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
+import Image from "next/image"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Navigation, Pagination } from "swiper"
+import { about5, about6, about7, about8, test1 } from "../../assets/about/about"
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
 
 function Slider() {
   return (
@@ -38,8 +32,8 @@ function Slider() {
       </div>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we’ve worked with so far. They understand our product
-          and are able to add new features with a great focus."
+          "The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus."
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -48,6 +42,7 @@ function Slider() {
               className="rounded-full"
               height={60}
               width={60}
+              alt=""
             />
           </div>
           <div>
@@ -58,8 +53,8 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we’ve worked with so far. They understand our product
-          and are able to add new features with a great focus."
+          "The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus."
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -68,6 +63,7 @@ function Slider() {
               className="rounded-full"
               height={60}
               width={60}
+              alt=""
             />
           </div>
           <div>
@@ -78,8 +74,8 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we’ve worked with so far. They understand our product
-          and are able to add new features with a great focus."
+          "The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus."
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -88,6 +84,7 @@ function Slider() {
               className="rounded-full"
               height={60}
               width={60}
+              alt=""
             />
           </div>
           <div>
@@ -98,8 +95,8 @@ function Slider() {
       </SwiperSlide>
       <SwiperSlide>
         <p className="max-w-[75%] mx-auto text-center">
-          "The best agency we’ve worked with so far. They understand our product
-          and are able to add new features with a great focus."
+          "The best agency we&apos;ve worked with so far. They understand our
+          product and are able to add new features with a great focus."
         </p>
         <div className=" laptop:max-w-[60%] mx-auto flex gap-6 justify-center mt-4">
           <div className="rounded-full mb-3">
@@ -108,6 +105,7 @@ function Slider() {
               className="rounded-full"
               height={60}
               width={60}
+              alt=""
             />
           </div>
           <div>
@@ -117,7 +115,7 @@ function Slider() {
         </div>
       </SwiperSlide>
     </Swiper>
-  );
+  )
 }
 
-export default Slider;
+export default Slider

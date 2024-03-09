@@ -1,10 +1,10 @@
-import Image from "next/image";
-import React from "react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import P1 from "../../assets/projects/project1.png";
-import P2 from "../../assets/projects/project2.png";
-import P3 from "../../assets/projects/project3.png";
-import Overlay from "../ui/overlay";
+import Image from "next/image"
+import React from "react"
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
+import P1 from "../../assets/projects/project1.png"
+import P2 from "../../assets/projects/project2.png"
+import P3 from "../../assets/projects/project3.png"
+import Overlay from "../ui/overlay"
 
 function Project() {
   return (
@@ -19,7 +19,7 @@ function Project() {
       <div className="grid gap-y-4 grid-cols-1 md:grid-cols-3">
         <div className=" col-span-1 md:col-span-2 laptop:max-w-[35rem] ">
           <div className="relative ">
-            <Image src={P1} />
+            <Image src={P1} alt="" />
 
             <Overlay
               w={50}
@@ -37,16 +37,16 @@ function Project() {
 Design"
                 button="View portfolio"
               />
-              <Image src={P3} />
+              <Image src={P3} alt="" />
             </div>
           </div>
           <div>
-            <Image src={P2} />
+            <Image src={P2} alt="" />
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Project;
+export default Project

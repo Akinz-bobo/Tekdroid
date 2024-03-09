@@ -1,31 +1,32 @@
-import React, { useState } from "react";
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-import { SliderData } from "./SliderData";
+import React, { useState } from "react"
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa"
+import { SliderData } from "./SliderData"
+import Image from "next/image"
 
 function Slider({ slide }) {
-  const [current, setCurrent] = useState(0);
-  const length = slide.length - 1;
+  const [current, setCurrent] = useState(0)
+  const length = slide.length - 1
   if (!Array.isArray(slide) || slide.length <= 0) {
-    return null;
+    return null
   }
 
   const prevSlide = () => {
-    setCurrent((prev) => {
-      prev = length;
-      length--;
+    setCurrent(prev => {
+      prev = length
+      length--
 
       if (prev === 0) {
       } else {
-        prev--;
-        return;
+        prev--
+        return
       }
-    });
-  };
+    })
+  }
   const nextSlide = () => {
-    setCurrent((prev) => {
-      return prev === length ? 0 : (prev = prev++);
-    });
-  };
+    setCurrent(prev => {
+      return prev === length ? 0 : (prev = prev++)
+    })
+  }
   return (
     <section className=" flex justify-center items-center w-screen h-screen overflow-hidden">
       <FaArrowAltCircleLeft
@@ -46,15 +47,16 @@ function Slider({ slide }) {
             }
             key={i}
           >
-            <img
+            <Image
               src={slide.image}
               className="image rounded-lg h-screen w-[60vw]"
+              alt=""
             />
           </div>
-        );
+        )
       })}
     </section>
-  );
+  )
 }
 
-export default Slider;
+export default Slider

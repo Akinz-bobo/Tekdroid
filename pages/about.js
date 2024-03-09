@@ -1,12 +1,12 @@
-import React from "react";
-import Image from "next/image";
-import Footer from "../components/ui/Footer";
-import MainNav from "../components/ui/nav/MainNav";
-import { data } from "../data/aboutData";
-import { about1, about2, about3, about4 } from "../assets/about/about";
-import Process from "../components/about/Process";
-import GridItems from "../components/features/GridItems";
-import Team from "../components/about/Team";
+import React from "react"
+import Image from "next/image"
+import Footer from "../components/ui/Footer"
+import MainNav from "../components/ui/nav/MainNav"
+import { data } from "../data/aboutData"
+import { about1, about2, about3, about4 } from "../assets/about/about"
+import Process from "../components/about/Process"
+import GridItems from "../components/features/GridItems"
+import Team from "../components/about/Team"
 
 function About() {
   return (
@@ -27,7 +27,7 @@ function About() {
               </p>
             </div>
             <div>
-              <Image src={about1} />
+              <Image src={about1} alt="" />
             </div>
           </div>
 
@@ -59,7 +59,7 @@ function About() {
               </div>
             </div>
             <div>
-              <Image src={about2} />
+              <Image src={about2} alt="" />
             </div>
           </div>
           <Process />
@@ -71,7 +71,7 @@ function About() {
               <div className="max-w-[600px]">
                 <h2 className="text-xl font-[500]">Our Mission </h2>
                 <h3 className="text-2xl md:text-3xl font-[600] my-5">
-                  Inspire, Innovate, Share
+                  Inspire, Innovate, Share
                 </h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -81,13 +81,13 @@ function About() {
                 </p>
               </div>
               <div>
-                <Image src={about3} />
+                <Image src={about3} alt="" />
               </div>
             </div>
 
             <div className="flex flex-col-reverse gap-y-6 laptop:gap-y-0 laptop:flex-row justify-between py-[4rem] ">
               <div>
-                <Image src={about4} />
+                <Image src={about4} alt="" />
               </div>
               <div className="max-w-[600px]">
                 <h2 className="text-xl font-[500]">Our Vision </h2>
@@ -119,7 +119,7 @@ function About() {
       </section>
       <Footer />
     </main>
-  );
+  )
 }
 
-export default About;
+export default About

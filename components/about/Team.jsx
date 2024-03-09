@@ -1,9 +1,9 @@
-import Image from "next/image";
-import React from "react";
-import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
-import Card from "./Card";
-import { about5, about6, about7, about8 } from "../../assets/about/about";
-import Link from "next/link";
+import Image from "next/image"
+import React from "react"
+import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs"
+import Card from "./Card"
+import { about5, about6, about7, about8 } from "../../assets/about/about"
+import Link from "next/link"
 
 function Team() {
   return (
@@ -25,29 +25,29 @@ function Team() {
                 </Link>
               </div>
             </div>
-            <Image src={about5} />
+            <Image src={about5} alt="" />
           </div>
           <h3 className="font-[500] text-xl my-4">Adeyemo Akinola</h3>
           <p>CEO</p>
         </Card>
         <Card>
-          <Image src={about6} />
+          <Image src={about6} alt="" />
           <h3 className="font-[500] text-xl my-4">Emmanuel Akinroye</h3>
           <p>CTO</p>
         </Card>
         <Card>
-          <Image src={about7} />
+          <Image src={about7} alt="" />
           <h3 className="font-[500] text-xl my-4">Adeyemi Shammah</h3>
           <p>Project Manager</p>
         </Card>
         <Card>
-          <Image src={about8} />
+          <Image src={about8} alt="" />
           <h3 className="font-[500] text-xl my-4">Frederick Ipki</h3>
           <p>Design Lead</p>
         </Card>
       </div>
     </div>
-  );
+  )
 }
 
-export default Team;
+export default Team

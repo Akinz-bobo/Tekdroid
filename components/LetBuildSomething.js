@@ -1,11 +1,11 @@
-import React from "react";
-import Button from "./ui/Button";
+import React from "react"
+import Button from "./ui/Button"
 
 function LetBuildSomething() {
   return (
     <div>
       <h3 className="font-[600] text-2xl md:text-3xl py-[1rem]">
-        Let's build something great together
+        Let&apos;s build something great together
       </h3>
       <p className="mb-8">
         Nullam vitae purus at tortor mattis dapibus. Morbi purus est, ultricies
@@ -17,7 +17,7 @@ function LetBuildSomething() {
         </a>
       </div>
     </div>
-  );
+  )
 }
 
-export default LetBuildSomething;
+export default LetBuildSomething

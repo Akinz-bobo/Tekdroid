@@ -1,10 +1,10 @@
-import React from "react";
-import Footer from "../../components/ui/Footer";
-import Image from "next/image";
-import Frame from "../../components/ui/Frame";
-import MainNav from "../../components/ui/nav/MainNav";
-import work1 from "../../assets/works/work1.png";
-import LetBuildSomething from "../../components/LetBuildSomething";
+import React from "react"
+import Footer from "../../components/ui/Footer"
+import Image from "next/image"
+import Frame from "../../components/ui/Frame"
+import MainNav from "../../components/ui/nav/MainNav"
+import work1 from "../../assets/works/work1.png"
+import LetBuildSomething from "../../components/LetBuildSomething"
 
 function WorkDetail() {
   return (
@@ -31,7 +31,7 @@ function WorkDetail() {
             className={` bg-gradient-to-r ${"from-[#F4EDE1] to-[#98B1C6]"} p-6`}
           >
             <div className="min-w-fit">
-              <Image src={work1} layout="responsive" />
+              <Image src={work1} layout="responsive" alr="" />
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ function WorkDetail() {
       </section>
       <Footer />
     </main>
-  );
+  )
 }
 
-export default WorkDetail;
+export default WorkDetail

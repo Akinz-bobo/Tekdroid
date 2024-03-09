@@ -1,11 +1,11 @@
-import React from "react";
-import Image from "next/image";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import Footer from "../../components/ui/Footer";
-import MainNav from "../../components/ui/nav/MainNav";
-import { blog0 } from "../../assets/blogImg";
-import Link from "next/link";
-import { blogData } from "../../data/blogData";
+import React from "react"
+import Image from "next/image"
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
+import Footer from "../../components/ui/Footer"
+import MainNav from "../../components/ui/nav/MainNav"
+import { blog0 } from "../../assets/blogImg"
+import Link from "next/link"
+import { blogData } from "../../data/blogData"
 
 function Blog() {
   return (
@@ -23,7 +23,7 @@ function Blog() {
             </p>
           </div>
           <div>
-            <Image src={blog0} />
+            <Image src={blog0} alt="" />
           </div>
           <div className="mt-3 md:max-w-[80%] laptop:max-w-[60%] mx-auto md:text-center">
             <p className="mb-2">
@@ -44,7 +44,7 @@ function Blog() {
           <ul className="grid grid-cols-1 md:grid-cols-2 laptop:grid-cols-3 gap-6">
             {blogData.map((item, ind) => (
               <li key={ind}>
-                <Image src={item.img} />
+                <Image src={item.img} alt="" />
                 <p className="my-4 opacity-90">{item.date}</p>
                 <h3 className="font-[600] text-lg mb-4">{item.heading}</h3>
                 <p>{item.body}</p>
@@ -61,7 +61,7 @@ function Blog() {
       </section>
       <Footer />
     </main>
-  );
+  )
 }
 
-export default Blog;
+export default Blog

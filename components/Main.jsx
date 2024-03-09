@@ -1,9 +1,9 @@
-import Link from "next/link";
-import React from "react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import Frame from "./ui/Frame";
+import Link from "next/link"
+import React from "react"
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
+import Frame from "./ui/Frame"
 
-import workData from "../data/workData";
+import workData from "../data/workData"
 
 function Main() {
   return (
@@ -38,18 +38,18 @@ function Main() {
               <h2 className="font-[600] text-xl py-4">{item.temp}</h2>
               <p className="mb-4">{item.desc}</p>
 
-              <a href="/works/1">
+              <Link href="/works/1">
                 <button className="flex items-center gap-4 text-[13px] md:text-base laptop:text-lg">
                   <span className="font-[500]">{item.btnText}</span>{" "}
                   <HiOutlineArrowNarrowRight className="text-xl" />
                 </button>
-              </a>
+              </Link>
             </li>
-          );
+          )
         })}
       </ul>
     </main>
-  );
+  )
 }
 
-export default Main;
+export default Main

@@ -1,10 +1,10 @@
-import Image from "next/image";
-import React from "react";
-import P1 from "../../assets/pointer1.png";
-import P2 from "../../assets/pointer2.png";
-import P3 from "../../assets/pointer3.png";
-import P4 from "../../assets/pointer4.png";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import Image from "next/image"
+import React from "react"
+import P1 from "../../assets/pointer1.png"
+import P2 from "../../assets/pointer2.png"
+import P3 from "../../assets/pointer3.png"
+import P4 from "../../assets/pointer4.png"
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
 function HowWeWork() {
   return (
     <div className="bg-[#F4F6FC]  ">
@@ -22,7 +22,7 @@ function HowWeWork() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 laptop:gap-x-8 gap-y-10">
           <div className="laptop:w-[250px]">
-            <Image src={P1} />
+            <Image src={P1} alt="" />
             <h3 className="font-[500] text-2xl my-3">Strategy</h3>
             <p className="opacity-70">
               Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -30,7 +30,7 @@ function HowWeWork() {
             </p>
           </div>
           <div className="laptop:w-[250px]">
-            <Image src={P2} />
+            <Image src={P2} alt="" />
             <h3 className="font-[500] text-2xl my-3">Wireframing</h3>
             <p className="opacity-70">
               Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -38,7 +38,7 @@ function HowWeWork() {
             </p>
           </div>
           <div className="laptop:w-[250px]">
-            <Image src={P3} />
+            <Image src={P3} alt="" />
             <h3 className="font-[500] text-2xl my-3">Design</h3>
             <p className="opacity-70">
               Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -46,7 +46,7 @@ function HowWeWork() {
             </p>
           </div>
           <div className="laptop:w-[250px]">
-            <Image src={P4} />
+            <Image src={P4} alt="" />
             <h3 className="font-[500] text-2xl my-3">Development</h3>
             <p className="opacity-70">
               Euismod faucibus turpis eu gravida mi. Pellentesque et velit
@@ -56,7 +56,7 @@ function HowWeWork() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default HowWeWork;
+export default HowWeWork

@@ -1,20 +1,20 @@
-import Image from "next/image";
-import React from "react";
-import Banner from "../components/homes/Banner";
-import Button from "../components/ui/Button";
-import Footer from "../components/ui/Footer";
-import Nav from "../components/ui/nav/nav";
+import Image from "next/image"
+import React from "react"
+import Banner from "../components/homes/Banner"
+import Button from "../components/ui/Button"
+import Footer from "../components/ui/Footer"
+import Nav from "../components/ui/nav/nav"
 import {
   feature,
   image1,
   image2,
   image3,
   image4,
-} from "../assets/features/featureImg";
-import { data } from "../data/featureData";
-import GridItems from "../components/features/GridItems";
-import TextContainer from "../components/features/TextContainer";
-import Accordion from "../components/ui/Accordion";
+} from "../assets/features/featureImg"
+import { data } from "../data/featureData"
+import GridItems from "../components/features/GridItems"
+import TextContainer from "../components/features/TextContainer"
+import Accordion from "../components/ui/Accordion"
 
 function Features() {
   return (
@@ -39,7 +39,7 @@ function Features() {
             </div>
           </div>
           <div>
-            <Image src={feature} height={400} width={550}></Image>
+            <Image src={feature} height={400} width={550} alt="" />
           </div>
         </Banner>
       </div>
@@ -53,7 +53,7 @@ function Features() {
             <TextContainer />
           </div>
           <div className="max-w-[90%]">
-            <Image src={image1} height={340} width={560} />
+            <Image src={image1} height={340} width={560} alt="" />
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ function Features() {
       <div className="bg-[#F4F6FC]">
         <div className="grid grid-cols-1 md:grid-cols-2 py-[6rem] gap-10  max-w-[80%] mx-auto">
           <div className="max-w-[90%] ">
-            <Image src={image2} height={340} width={560} />
+            <Image src={image2} height={340} width={560} alt="" />
           </div>
           <div>
             <TextContainer />
@@ -76,7 +76,7 @@ function Features() {
             <TextContainer />
           </div>
           <div className="max-w-[90%] ">
-            <Image src={image3} height={340} width={560} />
+            <Image src={image3} height={340} width={560} alt="" />
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ function Features() {
       <div className="bg-[#FCD980]">
         <div className="grid grid-cols-1 md:grid-cols-2 py-[6rem] gap-10 max-w-[80%] mx-auto">
           <div className="max-w-[90%] ">
-            <Image src={image4} height={340} width={560} />
+            <Image src={image4} height={340} width={560} alt="" />
           </div>
           <div>
             <TextContainer />
@@ -99,7 +99,7 @@ function Features() {
 
       <Footer />
     </div>
-  );
+  )
 }
 
-export default Features;
+export default Features

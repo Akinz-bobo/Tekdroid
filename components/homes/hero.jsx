@@ -1,11 +1,11 @@
-import React from "react";
-import Nav from "../ui/nav/nav";
-import Banner from "./Banner";
-import Image from "next/image";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import BannerImg from "../../assets/Illustration.png";
-import Button from "../ui/Button";
-import Link from "next/link";
+import React from "react"
+import Nav from "../ui/nav/nav"
+import Banner from "./Banner"
+import Image from "next/image"
+import { HiOutlineArrowNarrowRight } from "react-icons/hi"
+import BannerImg from "../../assets/Illustration.png"
+import Button from "../ui/Button"
+import Link from "next/link"
 
 function Hero() {
   return (
@@ -33,11 +33,11 @@ function Hero() {
           </div>
         </div>
         <div>
-          <Image src={BannerImg} height={300} width={550}></Image>
+          <Image src={BannerImg} height={300} width={550} alt="" />
         </div>{" "}
       </Banner>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
