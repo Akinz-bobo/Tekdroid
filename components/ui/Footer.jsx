@@ -1,14 +1,14 @@
-import Link from "next/link";
-import React from "react";
-import Logo from "./Logo";
-import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
+import Link from "next/link"
+import React from "react"
+import Logo from "./Logo"
+import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs"
 
 function Footer() {
   return (
     <div>
       <div className="bg-[#1C1E53] text-white ">
         <div className=" max-w-[96%] md:max-w-[80%] mx-auto pt-[5rem]">
-          <div className="grid grid-cols-2 ">
+          <div className="grid grid-cols-2 gap-6 md:gap-0 ">
             <div className="md:max-w-[70%]">
               <Logo />
               <p className="mt-4 opacity-90 text-sm md:text-base">
@@ -41,11 +41,11 @@ function Footer() {
             </div>
             <div className="bg-[#FCD980] grid laptop:grid-cols-2 gap-y-3 laptop:gap-y-0 px-8 py-4 text-black mt-2 col-span-2 md:col-span-1">
               <div>
-                <h4 className="text-2xl font-[600] mb-2">Email me at</h4>
+                <h4 className="text-xl font-[600] mb-2">Email me at</h4>
                 <p>contact@website.com</p>
               </div>
               <div>
-                <h4 className="text-2xl font-[600] mb-2">Call us</h4>
+                <h4 className="text-xl font-[600] mb-2">Call us</h4>
                 <p>0927 6277 28525</p>
               </div>
             </div>
@@ -64,7 +64,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

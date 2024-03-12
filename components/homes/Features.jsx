@@ -1,13 +1,13 @@
-import React from "react";
-import { HiUserGroup } from "react-icons/hi";
-import GridItems from "./GridItems";
+import React from "react"
+import { HiUserGroup } from "react-icons/hi"
+import GridItems from "./GridItems"
 import {
   BsFillCheckCircleFill,
   BsQuestionCircleFill,
   BsStopwatchFill,
-} from "react-icons/bs";
-import { RiPencilRuler2Line } from "react-icons/ri";
-import { CgNotes } from "react-icons/cg";
+} from "react-icons/bs"
+import { RiPencilRuler2Line } from "react-icons/ri"
+import { CgNotes } from "react-icons/cg"
 
 function Features() {
   const featureData = [
@@ -47,19 +47,19 @@ function Features() {
       title: "Hands-on approach",
       body: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. ",
     },
-  ];
+  ]
   return (
     <div className="bg-[#F4F6FC]">
       <div className="max-w-[80%] mx-auto pb-8">
         <div className="flex flex-col  items-center pt-10 max-w-md mx-auto">
           <h2 className="font-[600]">Features</h2>
-          <h3 className="font-[600] text-3xl">
+          <h3 className="font-[600] text-2xl">
             Design that solves problems, one product at a time
           </h3>
         </div>
         <div className="mt-[3rem]">
           <ul className="grid grid-cols-1 md:grid-cols-2 laptop:grid-cols-3 gap-6">
-            {featureData.map((item) => (
+            {featureData.map(item => (
               <li key={item.id}>
                 <GridItems
                   icon={item.icon}
@@ -72,7 +72,7 @@ function Features() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Features;
+export default Features

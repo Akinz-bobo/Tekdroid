@@ -26,10 +26,10 @@ function Hero() {
             <a href={"/works"}>
               <Button text={" View our work"} />
             </a>
-            <button className="flex items-center gap-4 text-[13px] md:text-base laptop:text-lg">
+            {/* <button className="flex items-center gap-4 text-[13px] md:text-base laptop:text-lg">
               <span className="font-[600]">View pricing</span>{" "}
               <HiOutlineArrowNarrowRight className="text-xl" />
-            </button>
+            </button> */}
           </div>
         </div>
         <div>
