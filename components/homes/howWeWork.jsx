@@ -10,7 +10,7 @@ function HowWeWork() {
     <div className="bg-[#F4F6FC]  ">
       <div className="flex flex-col md:flex-row gap-[2rem] sm:gap-y-[4rem] py-[5rem] max-w-[80%] mx-auto md:justify-between ">
         <div className="max-w-[350px]">
-          <h2 className="text-3xl font-[600] mb-4 ">How we work</h2>
+          <h2 className="text-2xl font-[600] mb-4 ">How we work</h2>
           <p className="opacity-75 laptop:mb-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor.

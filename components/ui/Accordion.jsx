@@ -45,7 +45,7 @@ function Accordion() {
     <div className="my-[4rem] ">
       <div className="grid grid-cols-1 md:grid-cols-3 items-center max-w-[90%] mx-auto ">
         <div className="max-w-[70%] mx-auto">
-          <h2 className="text-3xl font-[600]">Frequently Ask Questions</h2>
+          <h2 className="text-2xl font-[600]">Frequently Ask Questions</h2>
           <Link href={"/contact"}>
             <p className="text-[#2405F2] cursor-pointer mt-4">
               Contact us for more info

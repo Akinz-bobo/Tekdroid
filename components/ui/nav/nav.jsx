@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import Link from "next/link";
-import { BiMenuAltRight } from "react-icons/bi";
-import Logo from "../Logo";
-import Mobile_Nav from "./mobile.nav";
+import React, { useState } from "react"
+import Link from "next/link"
+import { BiMenuAltRight } from "react-icons/bi"
+import Logo from "../Logo"
+import Mobile_Nav from "./mobile.nav"
 
 function Nav() {
-  const [togglemenu, setTogglemenu] = useState(false);
+  const [togglemenu, setTogglemenu] = useState(false)
   return (
     <nav className=" bg-[#1C1E53] text-white relative">
       <div className=" flex justify-between items-center  mx-auto max-w-[80%]">
@@ -15,9 +15,9 @@ function Nav() {
           <Link href={"/"}>Home</Link>
           <Link href={"/about"}>About Us</Link>
           <Link href={"/features"}>Features</Link>
-          <Link href={"/pricing"}>Pricing</Link>
+          {/* <Link href={"/pricing"}>Pricing</Link> */}
           <Link href={"#faq"}>Faq</Link>
-          <Link href={"/blogs"}>Blog</Link>
+          {/* <Link href={"/blogs"}>Blog</Link> */}
           <Link href={"/contact"}>
             <button className="border rounded-full px-4 py-2">
               Contact us
@@ -40,7 +40,7 @@ function Nav() {
         </div>
       )}
     </nav>
-  );
+  )
 }
 
-export default Nav;
+export default Nav
